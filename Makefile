@@ -16,3 +16,6 @@ brain-games:
 
 lint:
 	poetry run flake8 brain_games
+
+even-game:
+	poetry run brain-even
