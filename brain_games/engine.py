@@ -18,8 +18,7 @@ def engine_game(game):
             f"'{right_answer}'.\nLet's try again, {name}!")
             return
     print(f'Congratulations, {name}')
-        
-        
-        
+
+
 if __name__ == '__main__':
     engine_game()
