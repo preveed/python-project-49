@@ -22,3 +22,6 @@ even-game:
 
 calc-game:
 	poetry run brain-calc
+
+gcd-game:
+	poetry run brain-gcd
