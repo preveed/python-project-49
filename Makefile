@@ -28,3 +28,6 @@ gcd-game:
 
 progression-game:
 	poetry run brain-progression
+
+prime-game:
+	poetry run brain-prime
