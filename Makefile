@@ -25,3 +25,6 @@ calc-game:
 
 gcd-game:
 	poetry run brain-gcd
+
+progression-game:
+	poetry run brain-progression
