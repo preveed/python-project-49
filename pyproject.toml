@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "2.1.0"
-description = ""
+description = "My first python project"
 authors = ["Andrey Basov <andronbas@gmail.com>"]
 readme = "README.md"
 packages = [
@@ -26,3 +26,10 @@ flake8 = "^7.0.0"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[project.urls]
+Repository = "https://github.com/preveed/python-project-49"
+
+classifiers = [
+"Programming Language :: Python :: 3",
+]

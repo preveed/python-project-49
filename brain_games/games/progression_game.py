@@ -2,7 +2,7 @@ import random
 
 RULES = 'What number is missing in the progression?'
 
-def game_logic():
+def start_game():
     start = random.randint(0, 10)
     lenght = random.randint(4, 10)
     addition = random.randint(1, 5)

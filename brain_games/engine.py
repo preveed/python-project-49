@@ -2,23 +2,20 @@ import prompt
 
 NUMBER_OF_ROUNDS = 3
 
-def engine_game(game):
+def get_inputs(game):
     print('Welcome to the Brain Games!')
-    name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}!')
+    user_name = prompt.string('May I have your name? ')
+    print(f'Hello, {user_name}!')
     print(game.RULES)
     for _ in range(NUMBER_OF_ROUNDS):
-        qestion, right_answer = game.game_logic()
-        print(f'Qestion: {qestion}')
+        question, right_answer = game.start_game()
+        print(f"Question: {question}")
         user_answer = prompt.string('Your answer: ')
         if user_answer == right_answer:
             print('Correct!')
         else:
             print(f"'{user_answer}' is wrong answer ;(. Correct answer was"
-            f" '{right_answer}'.\nLet's try again, {name}!")
+            f" '{right_answer}'.\nLet's try again, {user_name}!")
             return
-    print(f'Congratulations, {name}')
+    print(f'Congratulations, {user_name}')
 
-
-if __name__ == '__main__':
-    engine_game()

@@ -1,3 +1,26 @@
+It's my first Python project in amazing Hexlet scool :)
+
+It consists next games:
+1. Even game - You should identify is number even or not.
+To start game type command "make even-game"
+
+2. Calc game - You should claculate math expression.
+To start game type command "make calc-game"
+
+3. Progression game - You shold identify hiden number in row.
+To start game type command "make progression-game"
+
+4. GCD game - You should find the greatest common divisor of given numbers.
+To start game type command "make gcd-game"
+
+5. Prime game - You should identify is number prime or not.
+To start game type command "make prime-game"
+
+To install games type command "make install"
+
+To start linter type command "make lint"
+
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/preveed/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/preveed/python-project-49/actions)
 ### Maintainability Badge
