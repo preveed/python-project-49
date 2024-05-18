@@ -17,5 +17,5 @@ def get_inputs(game):
             print(f"'{user_answer}' is wrong answer ;(. Correct answer was"
             f" '{right_answer}'.\nLet's try again, {user_name}!")
             return
-    print(f'Congratulations, {user_name}')
+    print(f'Congratulations, {user_name}!')
 
