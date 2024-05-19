@@ -2,6 +2,7 @@ import prompt
 
 NUMBER_OF_ROUNDS = 3
 
+
 def get_inputs(game):
     print('Welcome to the Brain Games!')
     user_name = prompt.string('May I have your name? ')
@@ -15,7 +16,6 @@ def get_inputs(game):
             print('Correct!')
         else:
             print(f"'{user_answer}' is wrong answer ;(. Correct answer was"
-            f" '{right_answer}'.\nLet's try again, {user_name}!")
+                  f" '{right_answer}'.\nLet's try again, {user_name}!")
             return
     print(f'Congratulations, {user_name}!')
-

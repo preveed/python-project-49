@@ -2,6 +2,7 @@ import random
 
 RULES = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
+
 def start_game():
     question = random.randint(1, 99)
     if question == 2:

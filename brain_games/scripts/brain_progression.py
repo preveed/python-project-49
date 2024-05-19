@@ -3,6 +3,7 @@
 from brain_games.engine import get_inputs
 from brain_games.games import progression_game
 
+
 def main():
     get_inputs(progression_game)
 
