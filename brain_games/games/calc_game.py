@@ -5,9 +5,9 @@ import operator
 RULES = 'What is the result of the expression?\n'
 
 get_operator = {
-        '+': operator.add,
-        '-': operator.sub,
-        '*': operator.mul,
+    '+': operator.add,
+    '-': operator.sub,
+    '*': operator.mul,
 }.get
 
 
