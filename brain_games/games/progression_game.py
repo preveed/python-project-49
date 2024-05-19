@@ -16,7 +16,7 @@ def make_progression():
 
 def start_game():
     progression_string = make_progression()
-    miss_place = random.randint(0, len(progression_string)-1)
+    miss_place = random.randint(0, len(progression_string) - 1)
     right_answer = str(progression_string[miss_place])
     progression_string[miss_place] = '..'
     question = " ".join(map(str, progression_string))

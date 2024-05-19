@@ -15,6 +15,7 @@ def start_game():
         for i in range(3, int(question ** 0.5) + 1, 2):
             if question % i == 0:
                 right_answer = 'no'
+                return question, right_answer
             else:
                 right_answer = 'yes'
         return question, right_answer
