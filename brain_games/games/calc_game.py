@@ -6,9 +6,9 @@ RULES = 'What is the result of the expression?\n'
 
 def operations(operator, x, y):
     return {
-        '+': lambda: x+y,
-        '-': lambda: x-y,
-        '*': lambda: x*y,
+        '+': lambda: x + y,
+        '-': lambda: x - y,
+        '*': lambda: x * y,
     }.get(operator)()
 
 
