@@ -17,7 +17,6 @@ def start_game():
     second_num = random.randint(1, 100)
     operatot_list = ['+', '-', '*']
     sign = random.choice(operatot_list)
-    #operator = r(sign)
     right_answer = str(operations(sign, first_num, second_num))
     qwestion = f"{first_num} {sign} {second_num}"
     return qwestion, right_answer
