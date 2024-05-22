@@ -20,4 +20,4 @@ def start_game():
     sign = random.choice(operatot_list)
     right_answer = make_operations(sign, first_num, second_num)
     qwestion = f"{first_num} {sign} {second_num}"
-    return print(qwestion, right_answer)
+    return qwestion, right_answer
