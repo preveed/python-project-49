@@ -6,8 +6,8 @@ def run(game):
     print(f'Hello, {name}!')
     print(game.RULES)
     for _ in range(NUMBER_OF_ROUNDS):
-        qestion, right_answer = game.start_game()
-        print(f'Qestion: {qestion}')
+        question, right_answer = game.start_game()
+        print(f'Question: {question}')
         user_answer = str(input('Your answer: '))
         if user_answer == right_answer:
             print('Correct!')
