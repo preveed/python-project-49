@@ -1,5 +1,6 @@
 NUMBER_OF_ROUNDS = 3
 
+
 def run(game):
     print('Welcome to the Brain Games!')
     name = str(input('May I have your name? '))
@@ -13,6 +14,6 @@ def run(game):
             print('Correct!')
         else:
             print(f"'{user_answer}' is wrong answer ;(. Correct answer was"
-            f"'{right_answer}'.\nLet's try again, {name}!")
+                  f"'{right_answer}'.\nLet's try again, {name}!")
             return
     print(f'Congratulations, {name}!')
